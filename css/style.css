@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
 
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 body {
@@ -24,26 +24,28 @@ body {
 }
 
 h1 {
-    margin-left: 5rem;
-    margin-top: 3rem;
-    margin-bottom: 2rem;
+  margin-left: 8.2rem;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
 }
 
 .form {
-    margin-left: 5rem;
+  margin-left: 5rem;
 }
 
 .form2 {
-    display: flex;
-
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .form input {
-    margin-top: 2rem;
-    border: none;
-    border-bottom: 2px gray solid;
-    outline: 0;
-    padding-bottom: 1rem;
-    width: 25rem;
-    margin-right: 5rem;
+  margin-top: 2rem;
+  border: none;
+  border-bottom: 2px gray solid;
+  outline: 0;
+  padding-bottom: 1rem;
+  width: 25rem;
+  margin-right: 5rem;
+  margin-bottom: 2rem;
 }
