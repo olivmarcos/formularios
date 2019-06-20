@@ -32,7 +32,6 @@ h1 {
 .form2 {
   margin-top: 5rem;
   display: flex;
-  justify-content: center;
   flex-direction: column;
   align-items: center;
 }
@@ -44,7 +43,6 @@ h1 {
   outline: 0;
   padding-bottom: 1rem;
   width: 27rem;
-  margin-right: 5rem;
   margin-bottom: 2rem;
 }
 
@@ -56,7 +54,7 @@ h1 {
   flex-direction: column;
 }
 .title img {
-  width: 10rem;    
+  width: 10rem;
   border-radius: 50%;
 }
 .btn1 {
@@ -67,7 +65,7 @@ h1 {
 }
 
 .btn1 button {
-  background-color: #A63333;
+  background-color: #a63333;
   border: none;
   color: white;
   padding: 16px 32px;
@@ -83,10 +81,48 @@ h1 {
   margin-bottom: 1rem;
 }
 
-.btn1 button:hover {opacity: 1}
+.btn1 button:hover {
+  opacity: 1;
+}
 
 a {
   text-decoration: none;
-  color: #A63333;
+  color: #a63333;
   font-size: 0.7em;
+}
+
+@media (max-width: 992px) {
+  .title img {
+    width: 7rem;
+  }
+  .form input {
+    width: 20rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .form2 {
+    margin-top: 3rem;
+  }
+
+  .form input {
+    width: 15rem;
+  }
+}
+
+@media (max-width: 365px) {
+  .title img {
+    width: 6rem;
+  }
+  .form2 {
+    margin-top: 1rem;
+  }
+
+  .form input {
+    width: 15rem;
+  }
+
+  .btn1 button  {
+    padding: 13px 29px;
+  }
 }

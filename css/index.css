@@ -78,3 +78,37 @@ p {
 .redes a {
   color: white;
 }
+
+@media (max-width: 992px) {
+  header {
+    flex-direction: column;
+  }
+  menu li {
+    padding-top: 0;
+  }
+  p {
+    font-size: 1.5rem;
+  }
+  .textCenter {
+    margin-top: 15rem;
+  }
+  .redes {
+    font-size: 2rem;
+    margin-top: 5rem;
+  }
+  .redes li {
+    padding: 1rem;
+  }
+}
+
+@media (max-width: 400px) {
+  img {
+    width: 5rem;
+  }
+  p {
+    font-size: 1rem;
+  }
+  .textCenter {
+    margin-top: 5rem;
+  }
+}
